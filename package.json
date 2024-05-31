@@ -1,0 +1,33 @@
+{
+  "name": "first-graphql-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": " nodemon odev_countries/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "@graphql-tools/load-files": "^7.0.0",
+    "@graphql-tools/merge": "^9.0.4",
+    "apollo-server-core": "^3.13.0",
+    "dotenv": "^16.4.5",
+    "graphql": "^16.8.1",
+    "graphql-redis-subscriptions": "^2.6.1",
+    "graphql-ws": "^5.16.0",
+    "graphql-yoga": "^5.3.1",
+    "ioredis": "^5.4.1",
+    "mongoose": "^8.4.0",
+    "nanoid": "^5.0.7",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
